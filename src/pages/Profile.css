@@ -1,0 +1,44 @@
+/* Profile.css */
+
+.profile-container {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.profile-avatar {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.profile-avatar img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+.profile-card {
+    border: none;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.listings-card {
+    border: none;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.profile-page {
+    background-color: #f7f7f7;
+    min-height: 100vh;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.profile-avatar {
+    text-align: left; /* Alignez l'image à gauche */
+    margin-bottom: 20px;
+}
+
+.profile-avatar img {
+    width: 200px; /* Ajustez la largeur de l'image */
+    height: auto; /* Assurez-vous que la hauteur est ajustée automatiquement */
+    border-radius: 50%;
+}

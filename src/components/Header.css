@@ -1,0 +1,50 @@
+/* Header.css */
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #FF385C;
+}
+
+.logo {
+  margin-right: 20px;
+}
+
+.logo-link {
+  text-decoration: none;
+  color: #fff;
+}
+
+.logo-text {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 24px;
+}
+
+.nav-links {
+  display: flex;
+}
+
+.nav-link {
+  margin-right: 20px;
+  text-decoration: none;
+  color: #fff;
+}
+
+.nav-btn {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  color: #fff;
+  font-size: 16px;
+  margin-left: 10px;
+}
+
+.nav-btn:hover {
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+.profile-icon {
+  cursor: pointer;
+}
